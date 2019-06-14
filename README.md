@@ -1,7 +1,7 @@
 # MACHINE LEARNING
 
-Logistic Regression
-Random Forest
-SVM
-OVO
-OVR
+## Logistic Regression
+## Random Forest
+## SVM
+## OVO
+## OVR

@@ -15,7 +15,7 @@ class DatasetHelper:
         result = []
         try:
             idx = senti_wordnet["words"].index(word)
-            result = list(senti_wordnet["synonym_words"][idx])
+            result = [senti_wordnet["synonym_words"][idx]]
         except ValueError:
             word = " ".join(word.split("_"))
             for wordnet in vi_wordnet:
@@ -25,5 +25,4 @@ class DatasetHelper:
                         break
                 if len(result) > 0:
                     break
-
-        return [ViTokenizer.tokenize(w) for w in result] if result else []
+        return [ViTokenizer.tokenize(w) for w in result] if len(result) > 0 else []

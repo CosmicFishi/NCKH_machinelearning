@@ -1,6 +1,11 @@
 from sklearn.model_selection import train_test_split
 from pyvi import ViTokenizer
+import pandas as pd
 import os
+import re
+
+ROOT = os.path.abspath(".")
+print(ROOT)
 
 
 class Helper:
@@ -14,7 +19,7 @@ class Helper:
         :param is_readlines: return the whole text or list of lines of text file
         :return: text or list read from file
         """
-        with open(file_path, "r+", encoding=encoding) as f:
+        with open("%s/%s" % (ROOT, file_path), "r+", encoding=encoding) as f:
             if is_readlines:
                 text = [t.replace("\n", "") for t in f.readlines()]
             else:
@@ -24,7 +29,7 @@ class Helper:
 
     @staticmethod
     def read_json_file(file_path):
-        text = Helper.read_text_file(file_path)
+        text = Helper.read_text_file("%s/%s" % (ROOT, file_path))
 
         return text
 
@@ -35,6 +40,48 @@ class Helper:
                 text.append(t.replace(" ", "_"))
 
         return text
+
+    @staticmethod
+    def load_wordnet_by_csv(file_path="dataset/sentiment/VietSentiWordnet_Ver1.3.5.csv"):
+        """
+        Load wordnets from csv file from VietSentiWordNet
+
+        References: https://github.com/sonvx/VietSentiWordNet
+        :param file_path:
+        :return:words and their synonym words
+        {
+            "words": "",
+            "synonym_words": ""
+        }
+        """
+        df = pd.read_csv("%s/%s" % (ROOT, file_path))
+
+        words = []
+        synonym_words = []
+        for w, s in zip(df["SynsetTerms"].values, df["Gloss"].values):
+            t = (" ".join(re.split("#[0-9]", w.replace("\n", "")))).split()
+            words = words + t
+            synonym_words = synonym_words + [s.split(";")[0].replace("\n", "").strip()]*len(t)
+
+        return {
+            "words": words,
+            "synonym_words": synonym_words
+        }
+
+    @staticmethod
+    def load_wordnet_texts(folder_path="dataset/vi-wordnet"):
+        """
+        Load wordnets from a folder which contains wordnet files
+
+        References: https://github.com/zeloru/vietnamese-wordnet
+        :param folder_path:
+        :return: list of each wordnet files
+        """
+        words = []
+        for file in os.listdir("%s/%s" % (ROOT, folder_path)):
+            words.append(Helper.read_text_file("%s/%s" % (folder_path, file), is_readlines=True))
+
+        return words
 
     @staticmethod
     def split_dataset(feature, target, test_size=0.2):

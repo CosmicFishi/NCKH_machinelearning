@@ -1,11 +1,6 @@
-from dht.helper import Helper
+from .. import pos_list, neu_list, neg_list, not_list, degree_list
 import re
 
-pos_list = Helper.duplicate_terms_list(Helper.read_text_file("/Users/duonghuuthanh/PycharmProjects/machinelearingapp/dataset/sentiment/pos.txt", is_readlines=True))
-neg_list = Helper.duplicate_terms_list(Helper.read_text_file("/Users/duonghuuthanh/PycharmProjects/machinelearingapp/dataset/sentiment/neg.txt", is_readlines=True))
-neu_list = Helper.duplicate_terms_list(Helper.read_text_file("/Users/duonghuuthanh/PycharmProjects/machinelearingapp/dataset/sentiment/neutral.txt", is_readlines=True))
-not_list = Helper.duplicate_terms_list(Helper.read_text_file("/Users/duonghuuthanh/PycharmProjects/machinelearingapp/dataset/sentiment/not.txt", is_readlines=True))
-degree_list = Helper.duplicate_terms_list(Helper.read_text_file("/Users/duonghuuthanh/PycharmProjects/machinelearingapp/dataset/sentiment/degree.txt", is_readlines=True))
 inc_degree_list = ["rất", "quá", "lắm", "cực kỳ", "cực kì", "cực_kỳ", "cực_kì", "dã man", "dã_man", "ghê gớm", "ghê_gớm"]
 dec_degree_list = ["hơi",  "tạm", "tương đối", "tương_đối"]
 
@@ -113,13 +108,13 @@ class VietnameseProcess:
         for idx in range(length):
             if text[idx] in degree_list:
                 if idx + 1 < length and (text[idx + 1] in pos_list):
-                    if text[idx] in inc_degree_list:
-                        text.append("strongpositive")
+                    # if text[idx] in inc_degree_list:
+                    #     text.append("strongpositive")
                     text[idx] = "%s_%s" % (text[idx], text[idx + 1])
                 elif idx - 1 >= 0 and (text[idx - 1] in pos_list):
                     text[idx] = "%s_%s" % (text[idx - 1], text[idx])
-                    if text[idx] in inc_degree_list:
-                        text.append("strongpositive")
+                    # if text[idx] in inc_degree_list:
+                    #     text.append("strongpositive")
 
         self.sentence = " ".join(text)
 

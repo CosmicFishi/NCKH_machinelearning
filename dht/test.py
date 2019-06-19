@@ -5,6 +5,7 @@ from dht.classifier.logistic_regression import LogisticRegressionClassifier
 from dht.classifier.svm import SvmClassifier
 from dht.classifier.decision_tree import RandForestClassifier
 from dht.classifier.ensemble import OvoClassifier, OvrClassifier
+from dht.helper import Helper
 from sklearn.model_selection import KFold
 
 SENTIMENT_STOPWORDS = ("\ufeff", "+", "", ".", ",", "!", "%", "...", ")", "(", "thì", "là", "và", "bị", "với",
@@ -15,8 +16,8 @@ SENTIMENT_STOPWORDS = ("\ufeff", "+", "", ".", ",", "!", "%", "...", ")", "(", "
 
 def cross_validate(k=5, dataset_path="/Users/duonghuuthanh/Desktop/My-projects/SentimentAnalysis/2018/datasettokenizednew2"):
     c = CategoryDataset(path=dataset_path,
-                        is_remove_accents=False, is_remove_special_character=True, is_replace_not_terms=True,
-                        is_remove_number=False, is_indicate_phrases=True, is_replace_emotion_icons=True)
+                        is_remove_special_character=True, is_replace_not_terms=True,
+                        is_remove_number=True, is_indicate_phrases=True, is_replace_emotion_icons=True)
     dataset = c.load_dataset()
 
     X = dataset.feature
@@ -41,11 +42,11 @@ def cross_validate(k=5, dataset_path="/Users/duonghuuthanh/Desktop/My-projects/S
         train_vectors = result["train_vectors"]
         test_vectors = result["test_vectors"]
 
-        print("=== LOGISTIC REGRESSION LINEAR ===")
-        clf = LogisticRegressionClassifier()
-        tr0 += clf.training(train_vectors=train_vectors, train_targets=y_train)["duration"]
-        re0 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
-        print(re0)
+        # print("=== LOGISTIC REGRESSION LINEAR ===")
+        # clf = LogisticRegressionClassifier()
+        # tr0 += clf.training(train_vectors=train_vectors, train_targets=y_train)["duration"]
+        # re0 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
+        # print(re0)
         print("=== LOGISTIC REGRESSION MULTINOMIAL ===")
         clf = LogisticRegressionClassifier(multi_class="multinomial")
         tr1 += clf.training(train_vectors=train_vectors, train_targets=y_train)["duration"]
@@ -61,26 +62,26 @@ def cross_validate(k=5, dataset_path="/Users/duonghuuthanh/Desktop/My-projects/S
         tr3 += clf.training(train_vectors=train_vectors, train_targets=y_train)["duration"]
         re3 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
         print(re3)
-        print("=== RANDOM FOREST 10 subtrees ===")
-        clf = RandForestClassifier()
-        tr4 += clf.training(train_vectors=train_vectors, train_targets=y_train)["duration"]
-        re4 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
-        print(re4)
-        print("=== RANDOM FOREST 50 subtrees ===")
-        clf = RandForestClassifier(subtrees=50)
-        tr5 += clf.training(train_vectors=train_vectors, train_targets=y_train)["duration"]
-        re5 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
-        print(re5)
-        print("=== RANDOM FOREST 80 subtrees ===")
-        clf = RandForestClassifier(subtrees=80)
-        tr6 += clf.training(train_vectors=train_vectors, train_targets=y_train)["duration"]
-        re6 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
-        print(re6)
-        print("=== RANDOM FOREST 100 subtrees ===")
-        clf = RandForestClassifier(subtrees=100)
-        tr7 += clf.training(train_vectors=train_vectors, train_targets=y_train)["duration"]
-        re7 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
-        print(re7)
+        # print("=== RANDOM FOREST 10 subtrees ===")
+        # clf = RandForestClassifier()
+        # tr4 += clf.training(train_vectors=train_vectors, train_targets=y_train)["duration"]
+        # re4 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
+        # print(re4)
+        # print("=== RANDOM FOREST 50 subtrees ===")
+        # clf = RandForestClassifier(subtrees=50)
+        # tr5 += clf.training(train_vectors=train_vectors, train_targets=y_train)["duration"]
+        # re5 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
+        # print(re5)
+        # print("=== RANDOM FOREST 80 subtrees ===")
+        # clf = RandForestClassifier(subtrees=80)
+        # tr6 += clf.training(train_vectors=train_vectors, train_targets=y_train)["duration"]
+        # re6 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
+        # print(re6)
+        # print("=== RANDOM FOREST 100 subtrees ===")
+        # clf = RandForestClassifier(subtrees=100)
+        # tr7 += clf.training(train_vectors=train_vectors, train_targets=y_train)["duration"]
+        # re7 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
+        # print(re7)
         print("=== OVO ===")
         clf = OvoClassifier()
         tr8 += clf.training(train_vectors=train_vectors, train_targets=y_train)["duration"]
@@ -92,25 +93,25 @@ def cross_validate(k=5, dataset_path="/Users/duonghuuthanh/Desktop/My-projects/S
         re9 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
         print(re9)
 
-        score0 += re0["f1_score"]
+        # score0 += re0["f1_score"]
         score1 += re1["f1_score"]
         score2 += re2["f1_score"]
         score3 += re3["f1_score"]
-        score4 += re4["f1_score"]
-        score5 += re5["f1_score"]
-        score6 += re6["f1_score"]
-        score7 += re7["f1_score"]
+        # score4 += re4["f1_score"]
+        # score5 += re5["f1_score"]
+        # score6 += re6["f1_score"]
+        # score7 += re7["f1_score"]
         score8 += re8["f1_score"]
         score9 += re9["f1_score"]
 
-        pre0 += re0["duration"]
+        # pre0 += re0["duration"]
         pre1 += re1["duration"]
         pre2 += re2["duration"]
         pre3 += re3["duration"]
-        pre4 += re4["duration"]
-        pre5 += re5["duration"]
-        pre6 += re6["duration"]
-        pre7 += re7["duration"]
+        # pre4 += re4["duration"]
+        # pre5 += re5["duration"]
+        # pre6 += re6["duration"]
+        # pre7 += re7["duration"]
         pre8 += re8["duration"]
         pre9 += re9["duration"]
 
@@ -124,6 +125,41 @@ def cross_validate(k=5, dataset_path="/Users/duonghuuthanh/Desktop/My-projects/S
     print("RANDOM FOREST 100: ", score7/5, pre7/5, tr7/5)
     print("OVO: ", score8/5, pre8/5, tr8/5)
     print("OVR: ", score9/5, pre9/5, tr9/5)
+
+
+def split_validate(dataset_path):
+    c = CategoryDataset(path=dataset_path,
+                        is_remove_special_character=False, is_replace_not_terms=True,
+                        is_remove_number=False, is_indicate_phrases=False, is_replace_emotion_icons=True)
+    ds = c.load_dataset()
+
+    result = Helper.split_dataset(ds.feature, ds.target, test_size=0.9995)
+    X_train, y_train = result["X_train"], result["y_train"]
+    X_test, y_test = result["X_test"], result["y_test"]
+
+    params = {
+        "ngram_range": (1, 2)
+    }
+
+    vector = TfIdfVec(ds_train=X_train, ds_test=X_test, params=params).vectorizer()
+    train_vectors = vector["train_vectors"]
+    test_vectors = vector["test_vectors"]
+
+    print("=== LOGISTIC REGRESSION MULTINOMIAL ===")
+    clf = LogisticRegressionClassifier(multi_class="multinomial")
+    clf.training(train_vectors=train_vectors, train_targets=y_train)
+    re1 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
+    print(re1)
+    print("=== OVO ===")
+    clf = OvoClassifier()
+    clf.training(train_vectors=train_vectors, train_targets=y_train)
+    re2 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
+    print(re2)
+    print("=== OVR ===")
+    clf = OvrClassifier()
+    clf.training(train_vectors=train_vectors, train_targets=y_train)
+    re3 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
+    print(re3)
 
 
 def validate(train_path, test_path):
@@ -161,13 +197,16 @@ def validate(train_path, test_path):
 def draw_dataset():
     c = CategoryDataset(path="/Users/duonghuuthanh/Desktop/My-projects/SentimentAnalysis/2018/datasettokenizednew",
                         is_remove_accents=False, is_remove_special_character=True, is_replace_not_terms=True,
-                        is_remove_number=False, is_indicate_phrases=True, is_replace_emotion_icons=True)
+                        is_remove_number=True, is_indicate_phrases=True, is_replace_emotion_icons=True)
     ds = c.load_dataset_in_list("2_HaiLong")
 
     v = VisualizeBase(ds)
     v.draw(width=2000, height=2000)
 
 
-cross_validate()
-# validate(train_path="/Users/duonghuuthanh/Desktop/My-projects/SentimentAnalysis/2018/dataset2tokenized/train",
-#          test_path="/Users/duonghuuthanh/Desktop/My-projects/SentimentAnalysis/2018/dataset2tokenized/test")
+if __name__ == "__main__":
+    # draw_dataset()
+    # cross_validate()
+    split_validate("/Users/duonghuuthanh/Desktop/My-projects/SentimentAnalysis/2018/dataset4/data_train/train")
+    # validate(train_path="/Users/duonghuuthanh/Desktop/My-projects/SentimentAnalysis/2018/dataset2tokenized/train",
+    #          test_path="/Users/duonghuuthanh/Desktop/My-projects/SentimentAnalysis/2018/dataset2tokenized/test")

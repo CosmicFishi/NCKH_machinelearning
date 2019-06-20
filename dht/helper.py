@@ -4,8 +4,7 @@ import pandas as pd
 import os
 import re
 
-ROOT = os.path.abspath(".")
-print(ROOT)
+ROOT = os.path.abspath("..")
 
 
 class Helper:

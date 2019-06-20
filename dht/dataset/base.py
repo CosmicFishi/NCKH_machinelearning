@@ -12,8 +12,6 @@ class BaseDataset(ABC):
 
         items = os.listdir(self.path)
         for item in items:
-            # if item != "1_RatHaiLong" and item != '2_HaiLong_bk' and item != "4_KhongHaiLong":
-            #     continue
             if item not in ignore_categories:
                 ds = ds + self._read(item=item)
 

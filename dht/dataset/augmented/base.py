@@ -5,6 +5,10 @@ class AugmentationBase(ABC):
     def __init__(self):
         pass
 
+    @abstractmethod
+    def execute(self):
+        pass
+
     # @abstractmethod
     # def synonym_replacement(self):
     #     pass

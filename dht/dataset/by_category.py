@@ -34,14 +34,17 @@ class CategoryDataset(BaseDataset):
             except Exception as ex:
                 print("ERROR: ", str(ex))
             else:
-                sub_ds.append({
-                    "feature": content,
-                    "target": item
-                })
+                sub_ds = sub_ds + self._get_item(item, content)
             finally:
                 f.close()
 
         return sub_ds
+
+    def _get_item(self, item, content):
+        return [{
+            "feature": content,
+            "target": item
+        }]
 
     def _pre_process(self, sentence):
         pre = VietnameseProcess(sentence)

@@ -1,4 +1,5 @@
 from dht.dataset.by_category import CategoryDataset
+from dht.dataset.augmentation import AugmentedDataset
 from dht.dataset.visualize.vn import VisualizeBase
 from dht.feature_extraction.tfidf import TfIdfVec
 from dht.classifier.logistic_regression import LogisticRegressionClassifier
@@ -128,9 +129,9 @@ def cross_validate(k=5, dataset_path="/Users/duonghuuthanh/Desktop/My-projects/S
 
 
 def split_validate(dataset_path):
-    c = CategoryDataset(path=dataset_path,
-                        is_remove_special_character=False, is_replace_not_terms=True,
-                        is_remove_number=False, is_indicate_phrases=False, is_replace_emotion_icons=True)
+    c = AugmentedDataset(path=dataset_path,
+                         is_remove_special_character=False, is_replace_not_terms=True,
+                         is_remove_number=False, is_indicate_phrases=False, is_replace_emotion_icons=True)
     ds = c.load_dataset()
 
     result = Helper.split_dataset(ds.feature, ds.target, test_size=0.9995)
@@ -163,8 +164,8 @@ def split_validate(dataset_path):
 
 
 def validate(train_path, test_path):
-    train = CategoryDataset(path=train_path).load_dataset()
-    test = CategoryDataset(path=test_path).load_dataset()
+    train = AugmentedDataset(path=train_path, is_replace_not_terms=True, is_replace_emotion_icons=True).load_dataset()
+    test = CategoryDataset(path=test_path, is_replace_not_terms=True, is_replace_emotion_icons=True).load_dataset()
 
     X_train, y_train = train.feature, train.target
     X_test, y_test = test.feature, test.target
@@ -207,6 +208,6 @@ def draw_dataset():
 if __name__ == "__main__":
     # draw_dataset()
     # cross_validate()
-    split_validate("/Users/duonghuuthanh/Desktop/My-projects/SentimentAnalysis/2018/dataset4/data_train/train")
-    # validate(train_path="/Users/duonghuuthanh/Desktop/My-projects/SentimentAnalysis/2018/dataset2tokenized/train",
-    #          test_path="/Users/duonghuuthanh/Desktop/My-projects/SentimentAnalysis/2018/dataset2tokenized/test")
+    # split_validate("/Users/duonghuuthanh/Desktop/My-projects/SentimentAnalysis/2018/dataset4/data_train/train")
+    validate(train_path="/Users/duonghuuthanh/Desktop/My-projects/SentimentAnalysis/2018/dataset2tokenized/train",
+             test_path="/Users/duonghuuthanh/Desktop/My-projects/SentimentAnalysis/2018/dataset2tokenized/test")

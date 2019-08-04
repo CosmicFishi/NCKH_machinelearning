@@ -1,5 +1,9 @@
 # MACHINE LEARNING
 
+## KNN
+This classifier assigns the category to a document based on the distance or similarity metrics from the data point of the document to its k-nearest neighbors (k-NN). The category which assigns to the document is the category of most of k-nearest neighbors (as shown in Fig. 1). 
+The k-NN classifier a lazy algorithm, it does not learn anything from the dataset. When a new data point is raised, it’ll consider the whole dataset to find the k-nearest neighbors, so it’s a high computational cost for testing. The algorithm is more complex when k is bigger, but it’s also sensitive to noisy data points when k is small.
+## Naive Bayes
 ## Logistic Regression
 ## Random Forest
 ## SVM

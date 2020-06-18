@@ -1,13 +1,15 @@
-from dht.dataset.by_category import CategoryDataset
-from dht.dataset.augmentation import AugmentedDataset
-from dht.dataset.visualize.vn import VisualizeBase
+
+from dht.dataset.by_category import CategoryDataset, AugmentedDataset, AugmentedValidationDataset
+from dht.feature_extraction.feature_selection import ChiSquareVec
 from dht.feature_extraction.tfidf import TfIdfVec
+from dht.feature_extraction.hashing import HashVectorizer
 from dht.classifier.logistic_regression import LogisticRegressionClassifier
 from dht.classifier.svm import SvmClassifier
-from dht.classifier.decision_tree import RandForestClassifier
 from dht.classifier.ensemble import OvoClassifier, OvrClassifier
+from dht.classifier.naive_bayes import MultinomialNBClassifier
 from dht.helper import Helper
-from sklearn.model_selection import KFold
+# from dht.deep.test import cnn, train as deep_train
+import copy
 
 SENTIMENT_STOPWORDS = ("\ufeff", "+", "", ".", ",", "!", "%", "...", ")", "(", "thì", "là", "và", "bị", "với",
                        "thế_nào", "?", "", "một_số", "mot_so", "thi", "la", "va", "bi", "voi", "trong",
@@ -15,157 +17,100 @@ SENTIMENT_STOPWORDS = ("\ufeff", "+", "", ".", ",", "!", "%", "...", ")", "(", "
                        "tôii", "pro", "apple", "nokia", "samsung", "huawei", "oppo", "xiaomi")
 
 
-def cross_validate(k=5, dataset_path="/Users/duonghuuthanh/Desktop/My-projects/SentimentAnalysis/2018/datasettokenizednew2"):
-    c = CategoryDataset(path=dataset_path,
-                        is_remove_special_character=True, is_replace_not_terms=True,
-                        is_remove_number=True, is_indicate_phrases=True, is_replace_emotion_icons=True)
-    dataset = c.load_dataset()
+def augmented_validate(dataset_path):
+    ds = AugmentedValidationDataset(path=dataset_path)
+    ds_train, ds_test = ds.load_one_class_train()
+    print("=== ONE TRAIN ===", ds_train[0]["feature"])
 
-    X = dataset.feature
-    y = dataset.target
+    # original classifiers
+    train, test = ds.load_augmented_dataset(ds_train, ds_test)
+    re1 = validate(train, test)
 
-    kf = KFold(n_splits=k, shuffle=True)
-    split_dataset = [(train_index, test_index) for train_index, test_index in kf.split(X)]
-
-    score0, score1, score2, score3, score4, score5, score6, score7, score8, score9 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
-    pre0, pre1, pre2, pre3, pre4, pre5, pre6, pre7, pre8, pre9 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
-    tr0, tr1, tr2, tr3, tr4, tr5, tr6, tr7, tr8, tr9 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
-    for train_index, test_index in split_dataset:
-        X_train, X_test = X[train_index], X[test_index]
-        y_train, y_test = y[train_index], y[test_index]
-
-        params = {
-            # "stop_words": SENTIMENT_STOPWORDS,
-            "ngram_range": (1, 2)
-        }
-        result = TfIdfVec(ds_train=X_train, ds_test=X_test, params=params).vectorizer()
-
-        train_vectors = result["train_vectors"]
-        test_vectors = result["test_vectors"]
-
-        # print("=== LOGISTIC REGRESSION LINEAR ===")
-        # clf = LogisticRegressionClassifier()
-        # tr0 += clf.training(train_vectors=train_vectors, train_targets=y_train)["duration"]
-        # re0 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
-        # print(re0)
-        print("=== LOGISTIC REGRESSION MULTINOMIAL ===")
-        clf = LogisticRegressionClassifier(multi_class="multinomial")
-        tr1 += clf.training(train_vectors=train_vectors, train_targets=y_train)["duration"]
-        re1 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
-        print(re1)
-        print("=== SVM RBF ===")
-        clf = SvmClassifier(kernel="rbf")
-        tr2 += clf.training(train_vectors=train_vectors, train_targets=y_train)["duration"]
-        re2 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
-        print(re2)
-        print("=== SVM LINEAR ===")
-        clf = SvmClassifier(kernel="linear")
-        tr3 += clf.training(train_vectors=train_vectors, train_targets=y_train)["duration"]
-        re3 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
-        print(re3)
-        # print("=== RANDOM FOREST 10 subtrees ===")
-        # clf = RandForestClassifier()
-        # tr4 += clf.training(train_vectors=train_vectors, train_targets=y_train)["duration"]
-        # re4 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
-        # print(re4)
-        # print("=== RANDOM FOREST 50 subtrees ===")
-        # clf = RandForestClassifier(subtrees=50)
-        # tr5 += clf.training(train_vectors=train_vectors, train_targets=y_train)["duration"]
-        # re5 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
-        # print(re5)
-        # print("=== RANDOM FOREST 80 subtrees ===")
-        # clf = RandForestClassifier(subtrees=80)
-        # tr6 += clf.training(train_vectors=train_vectors, train_targets=y_train)["duration"]
-        # re6 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
-        # print(re6)
-        # print("=== RANDOM FOREST 100 subtrees ===")
-        # clf = RandForestClassifier(subtrees=100)
-        # tr7 += clf.training(train_vectors=train_vectors, train_targets=y_train)["duration"]
-        # re7 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
-        # print(re7)
-        print("=== OVO ===")
-        clf = OvoClassifier()
-        tr8 += clf.training(train_vectors=train_vectors, train_targets=y_train)["duration"]
-        re8 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
-        print(re8)
-        print("=== OVR ===")
-        clf = OvrClassifier()
-        tr9 += clf.training(train_vectors=train_vectors, train_targets=y_train)["duration"]
-        re9 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
-        print(re9)
-
-        # score0 += re0["f1_score"]
-        score1 += re1["f1_score"]
-        score2 += re2["f1_score"]
-        score3 += re3["f1_score"]
-        # score4 += re4["f1_score"]
-        # score5 += re5["f1_score"]
-        # score6 += re6["f1_score"]
-        # score7 += re7["f1_score"]
-        score8 += re8["f1_score"]
-        score9 += re9["f1_score"]
-
-        # pre0 += re0["duration"]
-        pre1 += re1["duration"]
-        pre2 += re2["duration"]
-        pre3 += re3["duration"]
-        # pre4 += re4["duration"]
-        # pre5 += re5["duration"]
-        # pre6 += re6["duration"]
-        # pre7 += re7["duration"]
-        pre8 += re8["duration"]
-        pre9 += re9["duration"]
-
-    print("Logistic regression linear: ", score0/5, pre0/5, tr0/5)
-    print("Logistic regression multinomimal: ", score1/5, pre1/5, tr1/5)
-    print("SVM RBF: ", score2/5, pre2/5, tr2/5)
-    print("SVM LINEAR: ", score3/5, pre3/5, tr3/5)
-    print("RANDOM FOREST 10: ", score4/5, pre4/5, tr4/5)
-    print("RANDOM FOREST 50: ", score5/5, pre5/5, tr5/5)
-    print("RANDOM FOREST 80: ", score6/5, pre6/5, tr6/5)
-    print("RANDOM FOREST 100: ", score7/5, pre7/5, tr7/5)
-    print("OVO: ", score8/5, pre8/5, tr8/5)
-    print("OVR: ", score9/5, pre9/5, tr9/5)
-
-
-def split_validate(dataset_path):
-    c = AugmentedDataset(path=dataset_path,
-                         is_remove_special_character=False, is_replace_not_terms=True,
-                         is_remove_number=False, is_indicate_phrases=False, is_replace_emotion_icons=True)
-    ds = c.load_dataset()
-
-    result = Helper.split_dataset(ds.feature, ds.target, test_size=0.9995)
-    X_train, y_train = result["X_train"], result["y_train"]
-    X_test, y_test = result["X_test"], result["y_test"]
-
+    # pre-processing and lexicons
+    flag = True
     params = {
         "ngram_range": (1, 2)
     }
+    ds_train_bk, ds_test_bk = ds.pre_process_one_class_train(ds_train=copy.deepcopy(ds_train),
+                                                             ds_test=copy.deepcopy(ds_test),
+                                                             is_replace_not_terms=flag,
+                                                             is_replace_emotion_icons=flag,
+                                                             is_indicate_phrases=flag,
+                                                             is_remove_special_character=flag)
+    train, test = ds.load_augmented_dataset(ds_train=ds_train_bk,
+                                            ds_test=ds_test_bk)
+    re2 = validate(train, test, params=params)
 
-    vector = TfIdfVec(ds_train=X_train, ds_test=X_test, params=params).vectorizer()
-    train_vectors = vector["train_vectors"]
-    test_vectors = vector["test_vectors"]
+    # augmentation
+    is_augmented = True
+    train, test = ds.load_augmented_dataset(ds_train=copy.deepcopy(ds_train),
+                                            ds_test=copy.deepcopy(ds_test),
+                                            is_augmented=is_augmented)
+    re3 = validate(train, test, params=params)
 
-    print("=== LOGISTIC REGRESSION MULTINOMIAL ===")
-    clf = LogisticRegressionClassifier(multi_class="multinomial")
-    clf.training(train_vectors=train_vectors, train_targets=y_train)
-    re1 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
-    print(re1)
-    print("=== OVO ===")
-    clf = OvoClassifier()
-    clf.training(train_vectors=train_vectors, train_targets=y_train)
-    re2 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
-    print(re2)
-    print("=== OVR ===")
-    clf = OvrClassifier()
-    clf.training(train_vectors=train_vectors, train_targets=y_train)
-    re3 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
-    print(re3)
+    # pre-processing, lexicons and augmentation
+    train, test = ds.load_augmented_dataset(ds_train=ds_train_bk,
+                                            ds_test=ds_test_bk,
+                                            is_augmented=is_augmented)
+    re4 = validate(train, test, params=params)
+
+    return [re1, re2, re3, re4]
 
 
-def validate(train_path, test_path):
-    train = AugmentedDataset(path=train_path, is_replace_not_terms=True, is_replace_emotion_icons=True).load_dataset()
-    test = CategoryDataset(path=test_path, is_replace_not_terms=True, is_replace_emotion_icons=True).load_dataset()
+def validate1(train_path, test_path, flag=False):
+    train = CategoryDataset(path=train_path, is_replace_not_terms=flag, is_indicate_phrases=flag,
+                            is_replace_emotion_icons=flag).load_dataset()
+    test = CategoryDataset(path=test_path, is_replace_not_terms=flag, is_remove_number=flag,
+                           is_remove_special_character=flag, is_indicate_phrases=flag,
+                           is_replace_emotion_icons=flag).load_dataset()
+
+    params = {
+        "ngram_range": (1, 2)
+    } #if flag else {}
+
+    return validate(train, test, params=params)
+
+
+def validate2(train_path, test_path, flag=True, **kwargs):
+    train = AugmentedDataset(path=train_path,
+                             is_replace_not_terms=flag,
+                             is_indicate_phrases=flag,
+                             is_replace_emotion_icons=flag,
+                             is_remove_special_character=flag,
+                             back_translation=kwargs.get("back_translation", False),
+                             syntax_tree=kwargs.get("syntax_tree", False),
+                             eda=kwargs.get("eda", False),
+                             w2v=kwargs.get("w2v", False)).load_dataset()
+    test = CategoryDataset(path=test_path, is_replace_not_terms=flag, is_remove_number=flag,
+                           is_remove_special_character=flag, is_indicate_phrases=flag,
+                           is_replace_emotion_icons=flag).load_dataset()
+
+    params = {
+         "ngram_range": (1, 2)
+    } #if flag else {}
+
+    return validate(train, test, params=params)
+
+
+def validate(train, test, params={}):
+    X_train, y_train = train.feature, train.target
+    X_test, y_test = test.feature, test.target
+
+    return classifier_execute(X_train, y_train, X_test, y_test, params=params)
+
+
+def deep_execute(dataset_path):
+    ds = AugmentedValidationDataset(path=dataset_path)
+    ds_train, ds_test = ds.load_one_class_train()
+
+    ds_train_bk, ds_test_bk = ds.pre_process_one_class_train(ds_train=copy.deepcopy(ds_train),
+                                                             ds_test=copy.deepcopy(ds_test),
+                                                             is_replace_not_terms=True,
+                                                             is_replace_emotion_icons=True,
+                                                             is_indicate_phrases=True,
+                                                             is_remove_special_character=True)
+
+    train, test = ds.load_augmented_dataset(ds_train_bk, ds_test_bk)
 
     X_train, y_train = train.feature, train.target
     X_test, y_test = test.feature, test.target
@@ -175,39 +120,101 @@ def validate(train_path, test_path):
     }
 
     vector = TfIdfVec(ds_train=X_train, ds_test=X_test, params=params).vectorizer()
+
+    # deep_train(vector["train_vectors"], y_train, vector["test_vectors"], y_test)
+
+
+def classifier_execute(X_train, y_train, X_test, y_test, params):
+    vector = TfIdfVec(ds_train=X_train, ds_test=X_test, params=params).vectorizer()
+    # vector = ChiSquareVec(ds_train=X_train, ds_test=X_test, params=params, y_train=y_train).vectorizer()
+    # vector = HashVectorizer(ds_train=X_train, ds_test=X_test, params=params).vectorizer()
     train_vectors = vector["train_vectors"]
     test_vectors = vector["test_vectors"]
 
+    # print("=== MultinomialNBClassifier ===")
+    # clf = MultinomialNBClassifier()
+    # clf.training(train_vectors=train_vectors, train_targets=y_train)
+    # re0 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
+    # print(re0)
     print("=== LOGISTIC REGRESSION MULTINOMIAL ===")
     clf = LogisticRegressionClassifier(multi_class="multinomial")
     clf.training(train_vectors=train_vectors, train_targets=y_train)
     re1 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
-    print(re1)
+    print("=== SVM RBF ===")
+    clf = SvmClassifier(kernel="rbf")
+    clf.training(train_vectors=train_vectors, train_targets=y_train)
+    re2 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
     print("=== OVO ===")
     clf = OvoClassifier()
     clf.training(train_vectors=train_vectors, train_targets=y_train)
-    re2 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
-    print(re2)
+    re3 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
     print("=== OVR ===")
     clf = OvrClassifier()
     clf.training(train_vectors=train_vectors, train_targets=y_train)
-    re3 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
-    print(re3)
+    re4 = clf.predict(test_vectors=test_vectors, test_targets=y_test)
 
-
-def draw_dataset():
-    c = CategoryDataset(path="/Users/duonghuuthanh/Desktop/My-projects/SentimentAnalysis/2018/datasettokenizednew",
-                        is_remove_accents=False, is_remove_special_character=True, is_replace_not_terms=True,
-                        is_remove_number=True, is_indicate_phrases=True, is_replace_emotion_icons=True)
-    ds = c.load_dataset_in_list("2_HaiLong")
-
-    v = VisualizeBase(ds)
-    v.draw(width=2000, height=2000)
+    return [re1['f1_score'], re2['f1_score'], re3['f1_score'], re4['f1_score']]
 
 
 if __name__ == "__main__":
-    # draw_dataset()
-    # cross_validate()
-    # split_validate("/Users/duonghuuthanh/Desktop/My-projects/SentimentAnalysis/2018/dataset4/data_train/train")
-    validate(train_path="/Users/duonghuuthanh/Desktop/My-projects/SentimentAnalysis/2018/dataset2tokenized/train",
-             test_path="/Users/duonghuuthanh/Desktop/My-projects/SentimentAnalysis/2018/dataset2tokenized/test")
+    epoches = 10
+    rows = []
+    headers = ["CLASSIFIERS", "MAX F-SCORE", "MIN F-SCORE"]
+    classifiers = ["MultinomialNBClassifier", "Logistic Regression", "SVM RBF", "OVO", "OVR"]
+    num_experiments = 4
+    num_classifiers = 5
+
+    # ONE-DOCUMENT RANDOMLY
+    # for ds in range(1, 6):
+    #     rows.append(["=====", "START DATASET %d" % ds, "====="])
+    #     result_max = [[-1, -1, -1, -1, -1], [-1, -1, -1, -1, -1], [-1, -1, -1, -1, -1], [-1, -1, -1, -1, -1]]
+    #     result_min = [[1, 1, 1, 1, 1], [1, 1, 1, 1, 1], [1, 1, 1, 1, 1], [1, 1, 1, 1, 1]]
+    #     for _ in range(epoches):
+    #         path = "/Users/duonghuuthanh/Desktop/My-projects/SentimentAnalysis/2018/augmentation/dataset%d/test" % ds
+    #         # deep_execute(path)
+    #         result = augmented_validate(dataset_path=path)
+    #         for r in range(num_experiments):
+    #             for c in range(num_classifiers):
+    #                 if result[r][c] > result_max[r][c]:
+    #                     result_max[r][c] = result[r][c]
+    #                 if result[r][c] < result_min[r][c]:
+    #                     result_min[r][c] = result[r][c]
+    #
+    #     print(result_max)
+    #     print(result_min)
+    #
+    #     for ma, mi in zip(result_max, result_min):
+    #         for idx in range(len(classifiers)):
+    #             rows.append([classifiers[idx], ma[idx], mi[idx]])
+    #         rows.append(headers)
+
+    # FIXED VALIDATE
+    rows = []
+    for i in range(1, 6):
+        print("=== DATASET %d ===" % i)
+        train_path = "/Users/duonghuuthanh/iCloud Drive (Archive)/Desktop/My-projects/SentimentAnalysis/2020/augmentation/dataset%d/train" % i
+        test_path = "/Users/duonghuuthanh/iCloud Drive (Archive)/Desktop/My-projects/SentimentAnalysis/2020/augmentation/dataset%d/test" % i
+        result1 = validate1(train_path=train_path, test_path=test_path)
+        result2 = validate1(train_path=train_path, test_path=test_path, flag=True)
+        result3 = validate2(train_path=train_path, test_path=test_path, flag=False, back_translation=True)
+        # result4 = validate2(train_path=train_path, test_path=test_path, flag=False, w2v=True)
+        # result5 = validate2(train_path=train_path, test_path=test_path, flag=False, syntax_tree=True)
+        # result6 = validate2(train_path=train_path, test_path=test_path, flag=False, eda=True)
+        result7 = validate2(train_path=train_path, test_path=test_path, flag=True, back_translation=True)
+        # result8 = validate2(train_path=train_path, test_path=test_path, flag=True, w2v=True)
+        # result9 = validate2(train_path=train_path, test_path=test_path, flag=True, syntax_tree=True)
+        # result10 = validate2(train_path=train_path, test_path=test_path, flag=True, eda=True)
+        classifiers = ["Logistic Regression", "SVM RBF", "OVO", "OVR"]
+        for c, r1, r2, r3, r7 \
+                in zip(classifiers, result1, result2, result3,
+                       result7):
+            rows.append([c, r1, r2, r3, r7])
+        rows.append(["classifiers", "Original", "Preprocessing",
+                     "Back", "w2v", "Syntax", "eda", "pre Back", "pre w2v", "pre Syntax", "pre eda"])
+
+    print("===KẾT QUẢ===")
+    print(rows)
+
+    from datetime import datetime
+    Helper.write_csv_file("[4]aug-%d-%s-ensembles.csv" % (epoches, str(datetime.now())),
+                          headers=headers, rows=rows)

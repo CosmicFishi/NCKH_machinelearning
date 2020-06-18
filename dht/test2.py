@@ -163,4 +163,4 @@ def cross_validate(k=5,
 
 
 if __name__ == "__main__":
-    pass
+    cross_validate()

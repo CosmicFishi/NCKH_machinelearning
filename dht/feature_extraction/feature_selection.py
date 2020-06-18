@@ -12,9 +12,9 @@ class ChiSquareVec(BaseVectorizer):
         self.y_train = y_train
 
     def vectorizer(self):
-        train_vectors, test_vectors = self._process()
+        train_vectors, test_vectors = self.process()
 
-        best = SelectKBest(score_func=chi2, k=700)
+        best = SelectKBest(score_func=chi2, k=10)
         f = best.fit(train_vectors, self.y_train)
 
         train_vectors = f.transform(train_vectors).toarray()

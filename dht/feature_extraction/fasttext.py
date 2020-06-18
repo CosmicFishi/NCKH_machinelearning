@@ -1,5 +1,5 @@
 from dht.feature_extraction.base import BaseVectorizer
-from dht.fasttext import FastTextClassifier
+from dht.fasttext2 import FastTextClassifier
 from scipy.sparse import csr_matrix
 import numpy as np
 

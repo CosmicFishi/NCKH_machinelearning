@@ -12,6 +12,7 @@ không thể
 không
 không phải
 không biết
+không khỏi
 chưa
 chưa thể
 chưa phải
@@ -22,3 +23,4 @@ hem
 không được
 bỏ
 trừ
+mất

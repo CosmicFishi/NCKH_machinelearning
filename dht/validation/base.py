@@ -15,7 +15,6 @@ class ValidationBase(ABC):
                                 is_remove_number=True, is_indicate_phrases=True, is_replace_emotion_icons=True)
             self.test = c.load_dataset()
 
-
     def execute(self):
         pass
 

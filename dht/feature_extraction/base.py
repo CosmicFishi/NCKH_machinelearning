@@ -1,4 +1,4 @@
-from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer, HashingVectorizer
 
 
 class BaseVectorizer:
@@ -9,14 +9,14 @@ class BaseVectorizer:
         self.ds_test = ds_test
 
     def vectorizer(self):
-        train_vectors, test_vectors = self._process()
+        train_vectors, test_vectors = self.process()
 
         return {
             "train_vectors": train_vectors,
             "test_vectors": test_vectors
         }
 
-    def _process(self):
+    def process(self):
         v = globals()[self.class_name](**self.params)
         train_vectors = v.fit_transform(self.ds_train)
         test_vectors = v.transform(self.ds_test)

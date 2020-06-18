@@ -26,9 +26,11 @@ emotion_icons = {
     '🙃': ' positive ', '🤑': ' positive ', '🤪': ' positive ', '☹': ' negative ',  '💀': ' negative ',
     '😔': ' negative ', '😧': ' negative ', '😩': ' negative ', '😰': ' negative ', '😳': ' negative ',
     '😵': ' negative ', '😶': ' negative ', '🙁': ' negative ', ':))': ' positive ', ':)': ' positive ',
+    ' >3 ': ' positive ', ' 💋 ': ' positive ',
+    ' (y) ': ' positive ',
     'he he': ' positive ', 'hehe': ' positive ', 'hihi': ' positive ', 'haha': ' positive ',
     'hjhj': ' positive ', ' lol ': ' negative ', 'huhu': ' negative ', ' 4sao ': ' positive ', ' 5sao ': ' positive ',
-    ' 1sao ': ' negative ', ' 2sao ': ' negative ',
+    ' 1sao ': ' negative ', ' 2sao ': ' negative ', ' 4 * ': ' positive ', ' 5 * ': ' positive ',
     ': ) )': ' positive ', ' : ) ': ' positive '
 }
 
@@ -37,16 +39,16 @@ wrong_terms = {
     'okay': ' ok ', 'okê': ' ok ', 'ote': ' ok ',
     'kg ': u' không ', 'not': u' không ', u' kg ': u' không ', '"k ': u' không ', ' kh ': u' không ',
     'kô': u' không ', 'hok': u' không ', ' kp ': u' không phải ', u' kô ': u' không ', '"ko ': u' không ',
-    ' ko ': u' không ', u' k ': u' không ', 'khong': u' không ', u' hok ': u' không ',
+    'ko ': u' không ', u' k ': u' không ', 'khong': u' không ', u' hok ': u' không ',
     ' cam ': ' camera ', ' cameera ': ' camera ', 'thuết kế': u'thiết_kế', 'ết_kế ': u' thiết_kế ',
     'gud': u' tốt ', 'god': u' tốt ', 'wel done': ' tốt ', 'good': u' tốt ', 'gút': u' tốt ',
-    'sấu': u' xấu ', 'gut': u' tốt ', u' tot ': u' tốt ', u' nice ': u' tốt ', 'perfect': 'rất tốt',
-    'bt': u' bình thường ',
+    'sấu': u' xấu ', 'gut': u' tốt ', u' tot ': u' tốt ', u' nice ': u' tốt ', 'perfect': 'hoàn_hảo',
+    'bt': u' bình thường ', u' wá ': ' quá ',
     ' m ': u' mình ', u' mik ': u' mình ', 'mìn': u'mình', u' mìnhh ': u' mình ', u' mềnh ': ' mình ',
-    ' mk ': u' mình ', ' mik ': ' mình ',
+    ' mk ': u' mình ', ' mik ': ' mình ', ' pvu ': u' phục vụ ',
     u' wá ': u' quá ', ' wa ': u' quá ', u'qá': u' quá ',
     ' cute ': 'dễ_thương',
-    u' tẹc vời ': ' tuyệt_vời ', u'tiệc dời': ' tuyệt_vời ', u'tẹc zời': ' tuyệt_vời ',
+    u' tẹc vời ': ' tuyệt_vời ', u'tiệc dời': ' tuyệt_vời ', u'tẹc zời': ' tuyệt_vời ', u'tẹt vời': ' tuyệt_vời ',
     ' dc ': u' được ', u' đc ': u' được ', ' j ': ' gì ',
     ' màn hìn ': ' màn_hình ', u' màng hình ': u' màn_hình ', ' dt ': u' điện_thoại ',
     ' đt ': u' điện_thoại ',
@@ -72,8 +74,14 @@ wrong_terms = {
     u' bỗ ': u' bổ ',
     u' sụt ': u' tụt ', u' tuột ': u' tụt ', u' xuống ': u' tụt ',
     u'chíp ': ' chip ',
-    ' bin ': ' pin '
+    ' bin ': ' pin ', ' tl ': u' trả_lời ',
+    ' vs ': u' với ', ' nhg ': u' nhưng ',
+   ' thix ': u' thích ', ' thik ': u' thích ', ' o ': u' không ', ' iu ': u' yêu ', ' dth ': u' dễ_thương '
 }
+
+s1_bk = u'ÃÕãõĨĩŨũẤấẦầẨẩẪẫẬậẮắẰằẲẳẴẵẶặẸẹẺẻẼẽẾếỀềỂểỄễỆệỈỉỎỏỐốỒồỔổỖỗỘộỚớỜờỞởỠỡỢợỤụỦủỬửỮữỰựỶỷỸỹ'
+s0_bk = u'AOaoIiUuAaAaAaAaAaAaAaAaAaAaEeEeEeEeEeEeEeEeIiOoOoOoOoOoOoOoOoOoOoOoUuUuUuUuUuYyYy'
+
 
 s1 = u'ÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚÝàáâãèéêìíòóôõùúýĂăĐđĨĩŨũƠơƯưẠạẢảẤấẦầẨẩẪẫẬậẮắẰằẲẳẴẵẶặẸẹẺẻẼẽẾếỀềỂểỄễỆệỈỉỊịỌọỎỏỐốỒồỔổỖỗỘộỚớỜờỞởỠỡỢợỤụỦủỨứỪừỬửỮữỰựỲỳỴỵỶỷỸỹ'
 s0 = u'AAAAEEEIIOOOOUUYaaaaeeeiioooouuyAaDdIiUuOoUuAaAaAaAaAaAaAaAaAaAaAaAaEeEeEeEeEeEeEeEeIiIiOoOoOoOoOoOoOoOoOoOoOoOoUuUuUuUuUuUuUuYyYyYyYy'

@@ -1,50 +1,59 @@
 from ..utils import DatasetHelper
-from .. import sentiment_stopwords, pos_list, neg_list
+from .. import sentiment_stopwords, pos_list, neg_list, degree_list
 from .base import AugmentationBase
+from dht.helper import Helper
 import random
 
-random.seed(1)
+# random.seed(1)
 
 
-class SentimentAugmentation(AugmentationBase):
+class ViSentimentAugmentation(AugmentationBase):
     def __init__(self, sentence):
         self.sentence = sentence
 
-    def synonym_replacement(self, replaced_num=10):
+    def syntax(self):
+        sentences = []
+
+        for sen in Helper.tokenize_sentence(self.sentence):
+            en_sen = Helper.translate_syntax(sen, src="vi", des="en")
+            vi_sen = Helper.translate_syntax(Helper.change_active_to_passive_voice(en_sen), src="en", dest="vi")
+            sentences.append(vi_sen)
+
+        return ". ".join(sentences)
+
+    def get_synonym_words(self, word):
+        return DatasetHelper.get_synonym_words(word)
+
+    def degree_replacement(self):
         new_words = [w for w in self.sentence.split() if w not in sentiment_stopwords]
         words = new_words.copy()
 
         random.shuffle(words)
+        flag = False
 
-        for i in range(min(replaced_num, len(words))):
+        for i in range(len(words)):
             word = words[i]
-            synonym_words = DatasetHelper.get_synonym_words(word)
+            if word in degree_list:
+                flag = True
+                synonym_words = DatasetHelper.get_synonym_words(word, idx=1)
+                random.seed(i)
+                if len(synonym_words) > 0:
+                    synonym = random.choice(synonym_words)
+                    new_words = [synonym if w == word else w for w in new_words]
 
-            if len(synonym_words) > 0:
-                synonym = random.choice(synonym_words)
-                new_words = [synonym if w == word else w for w in new_words]
-
-        new_sentence = " ".join(new_words)
-        print("=== New sentence (REPLACEMENT) === ", new_sentence)
+        new_sentence = " ".join(new_words) if flag else None
 
         return new_sentence
 
     def random_insertion(self):
-        print("=== Inserting === ", self.sentence)
         new_words = self.sentence.split()
         words = [w for w in self.sentence.split() if w in pos_list + neg_list]
 
-        # synonym_words = []
-        # while len(synonym_words) < 1 and len(words) > 0:
-
-        # word = words[0]
         for word in words:
             synonym_words = DatasetHelper.get_synonym_words(word) if len(words) > 0 else []
 
             if len(synonym_words) > 0:
                 new_words.insert(random.randint(0, len(new_words) - 1), synonym_words[0])
-                # print("=== Old sentence (INSERTION) === ", self.sentence)
-                # print("=== New sentence (INSERTION) === ", new_sentence)
 
         new_sentence = " ".join(new_words)
         return new_sentence
@@ -81,17 +90,40 @@ class SentimentAugmentation(AugmentationBase):
 
         return " ".join(new_words)
 
-    def execute(self, num=10):
-        augmented_sentences = []
+    # def execute(self, num, eda=True):
+    #     augmented_sentences = []
+    #
+    #     if eda:
+    #         for _ in range(num):
+    #             sen = self.synonym_replacement()
+    #             augmented_sentences.append(sen)
+    #
+    #         for _ in range(num):
+    #             augmented_sentences.append(self.random_swap())
+    #         #
+    #         # for _ in range(3):
+    #         #     t = self.degree_replacement()
+    #         #     if t:
+    #         #         augmented_sentences.append(t)
+    #
+    #         for _ in range(num):
+    #             augmented_sentences.append(self.random_deletion())
 
-        for _ in range(num):
-            augmented_sentences.append(self.synonym_replacement())
+            # for _ in range(num):
+            #     augmented_sentences.append(self.shuffle())
 
-        for _ in range(num):
-            augmented_sentences.append(self.random_swap())
-
-        # for _ in range(num):
-        #     augmented_sentences.append(self.shuffle())
+        # if back_trans:
+        #     print("====")
+        #     print(self.sentence)
+        #     for _ in range(1):
+        #         try:
+        #             sen = self.back_translation()
+        #             augmented_sentences.append(sen)
+        #             print(sen)
+        #             self.sentence = sen
+        #         except Exception as ex:
+        #             print("ERR: " + str(ex))
+        #             break
 
         return augmented_sentences
 

@@ -12,7 +12,7 @@ import random
 class CategoryDataset(BaseDataset):
     def __init__(self, path, **kwargs):
         super().__init__(path)
-        self.is_remove_accents = kwargs.get("is_remove_accents", False)
+        self.is_remove_accents = kwargs._s("is_remove_accents", False)
         self.is_remove_special_character = kwargs.get("is_remove_special_character", False)
         self.is_remove_number = kwargs.get("is_remove_number", False)
         self.is_indicate_phrases = kwargs.get("is_indicate_phrases", False)

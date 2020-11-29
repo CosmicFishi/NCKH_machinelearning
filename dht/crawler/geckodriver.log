@@ -1,0 +1,688 @@
+1592639186728	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0b/kkhtm0gd3tx385pw7d_1_6ch0000gp/T/rust_mozprofileSp7BuP"
+1592639187683	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592639188067	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592639188067	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592639188068	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592639188068	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1592639190273	Marionette	INFO	Listening on port 51946
+1592639190292	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592639212267	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0b/kkhtm0gd3tx385pw7d_1_6ch0000gp/T/rust_mozprofileYxgCOQ"
+1592639212946	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592639213320	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592639213320	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592639213320	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592639213320	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1592639215218	Marionette	INFO	Listening on port 52114
+1592639215238	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592639217306	Marionette	INFO	Stopped listening on port 52114
+1592639221594	Marionette	INFO	Stopped listening on port 51946
+1592639234215	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0b/kkhtm0gd3tx385pw7d_1_6ch0000gp/T/rust_mozprofile6mjoKo"
+1592639234643	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592639235002	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592639235002	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592639235002	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592639235002	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1592639236787	Marionette	INFO	Listening on port 52275
+1592639236880	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592639238568	Marionette	INFO	Stopped listening on port 52275
+1592639827431	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0b/kkhtm0gd3tx385pw7d_1_6ch0000gp/T/rust_mozprofileb1JsFi"
+1592639827893	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592639828288	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592639828288	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592639828288	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592639828288	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1592639830040	Marionette	INFO	Listening on port 54794
+1592639830095	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006191200.js, line 2: TypeError: t is undefined
+1592639834836	Marionette	INFO	Stopped listening on port 54794
+1592639880652	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0b/kkhtm0gd3tx385pw7d_1_6ch0000gp/T/rust_mozprofilenA6m8F"
+1592639881061	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592639881421	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592639881421	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592639881421	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592639881421	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1592639883400	Marionette	INFO	Listening on port 55096
+1592639883418	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181100.js, line 2: TypeError: t is undefined
+1592639887930	Marionette	INFO	Stopped listening on port 55096
+1592639912027	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0b/kkhtm0gd3tx385pw7d_1_6ch0000gp/T/rust_mozprofileQGQWHg"
+1592639912433	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592639912796	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592639912796	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592639912796	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592639912796	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1592639914466	Marionette	INFO	Listening on port 55302
+1592639914480	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006191200.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006191200.js, line 2: TypeError: t is undefined
+1592640189800	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0b/kkhtm0gd3tx385pw7d_1_6ch0000gp/T/rust_mozprofile3p7cR1"
+1592640190276	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592640190691	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592640190691	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592640190691	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592640190691	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1592640193130	Marionette	INFO	Listening on port 56591
+1592640193184	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006191200.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/samsung-galaxy-s20-plus/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+1592640249241	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0b/kkhtm0gd3tx385pw7d_1_6ch0000gp/T/rust_mozprofileuWerTM"
+1592640249827	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592640250254	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592640250254	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592640250254	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592640250254	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1592640252301	Marionette	INFO	Listening on port 56943
+1592640252335	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006191200.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/samsung-galaxy-s20-plus/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+1592640294360	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0b/kkhtm0gd3tx385pw7d_1_6ch0000gp/T/rust_mozprofileMPolOL"
+1592640294937	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592640295337	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592640295337	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592640295337	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592640295337	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1592640297375	Marionette	INFO	Listening on port 57233
+1592640297438	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181100.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/samsung-galaxy-s20-plus/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181100.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181100.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/iphone-11/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1592640396149	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0b/kkhtm0gd3tx385pw7d_1_6ch0000gp/T/rust_mozprofileusFl3F"
+1592640396605	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592640396997	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592640396997	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592640396997	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592640396997	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1592640398881	Marionette	INFO	Listening on port 57761
+1592640398933	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006180450.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/samsung-galaxy-s20-plus/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006180450.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006180450.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/iphone-11/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006180450.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006180450.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006180450.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006180450.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/vsmart-active-3-6gb/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006180450.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006180450.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/laptop/hp-15-da0054tu-4me68pa/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006180450.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006180450.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/may-tinh-bang/samsung-galaxy-tab-a8-t295-2019/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006180450.js, line 2: TypeError: t is undefined
+1592640466712	Marionette	INFO	Stopped listening on port 57761
+1592641050840	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0b/kkhtm0gd3tx385pw7d_1_6ch0000gp/T/rust_mozprofile14vizO"
+1592641051400	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592641051753	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592641051754	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592641051754	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592641051754	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1592641053601	Marionette	INFO	Listening on port 60562
+1592641053620	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/samsung-galaxy-s20-plus/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/iphone-11/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/realme-6i/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/vsmart-active-3-6gb/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/iphone-11-pro-max-256gb/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/V4/detail.min.v202006191200.js line 14 > eval, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/iphone-11-pro-max/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/iphone-xs-max-256gb/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/samsung-galaxy-s20-ultra/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/samsung-galaxy-note-10-plus/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/iphone-xs-max/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/V4/detail.min.v202006191200.js line 14 > eval, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/iphone-11-128gb/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/samsung-galaxy-note-10/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/samsung-galaxy-s10-plus/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/iphone-8-plus/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/samsung-galaxy-a80/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/V4/detail.min.v202006181100.js line 14 > eval, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/iphone-7-plus/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/iphone-se-2020/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/samsung-galaxy-note-10-lite/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/samsung-galaxy-a71/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/iphone-7/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/V4/detail.min.v202006181100.js line 14 > eval, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/xiaomi-mi-note-10-lite/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/samsung-galaxy-a70/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/huawei-nova-5t/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/V4/detail.min.v202006181100.js line 14 > eval, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/vivo-v19/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/oppo-reno2-f/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/samsung-galaxy-a51-8gb/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/realme-6-pro/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/samsung-galaxy-a51/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/xiaomi-mi-9-se/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/vivo-s1-pro/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/oppo-a91/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/realme-5-pro-8gb/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/oppo-a9/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/huawei-nova-7i/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/oppo-a91/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/samsung-galaxy-a50s/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/samsung-galaxy-a31/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/samsung-galaxy-a30s/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/realme-5-pro/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/xiaomi-redmi-note-8-pro-6gb-128gb/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/realme-6/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/xiaomi-redmi-note-9s/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/V4/detail.min.v202006191200.js line 14 > eval, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/xiaomi-redmi-note-8-pro/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/huawei-p30-lite/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/huawei-y9-prime-2019/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/samsung-galaxy-a20s/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/xiaomi-redmi-note-8-128gb/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/realme-5-4gb/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/V4/detail.min.v202006191200.js line 14 > eval, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/vivo-y19/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/xiaomi-redmi-note-7/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/xiaomi-redmi-note-9/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/V4/detail.min.v202006191200.js line 14 > eval, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/realme-5s/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/oppo-a5-2020-128gb/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/oppo-a31-4gb-128gb/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/V4/detail.min.v202006191200.js line 14 > eval, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/blackberry-evolve/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/xiaomi-mi-a3/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/xiaomi-redmi-note-8/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/samsung-galaxy-a20s-32gb/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/vivo-y17/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/xiaomi-redmi-note-8-32gb/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/vivo-u10/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/samsung-galaxy-a10s/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/xiaomi-redmi-7/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/realme-5i-4gb/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/realme-5/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/samsung-galaxy-a11/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/vivo-y12/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/vsmart-joy-3-4gb/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/realme-5i/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/realme-c3/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/xiaomi-redmi-7-16gb/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/xiaomi-redmi-8-64gb/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/vivo-y11/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/oppo-a5s/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/samsung-galaxy-a01/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/V4/detail.min.v202006181100.js line 14 > eval, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/oppo-a1k/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/xiaomi-redmi-8/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/vsmart-joy-3/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/nokia-23/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/V4/detail.min.v202006181100.js line 14 > eval, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/realme-c2-2gb-32gb/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/vivo-y91c/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/xiaomi-redmi-8a/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/vsmart-joy-3-2gb/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/vsmart-star-3/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/itel-s15-pro/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/vsmart-bee-3/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/nokia-c1/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/vsmart-star/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/nokia-230-khong-the/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/nokia-3310-2017/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/nokia-5310-2020/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/V4/detail.min.v202006181100.js line 14 > eval, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/vsmart-bee/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/itel-alpha-lite/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/nokia-210/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/nokia-150-khong-the-nho/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/mobell-rock-3/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/nokia-110-2019/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/mobell-m529/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/mobell-m729/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/masstel-izi-300/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/V4/detail.min.v202006181100.js line 14 > eval, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/mobell-m389/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/itel-it5092/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/nokia-105-single-sim-2019/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/V4/detail.min.v202006181100.js line 14 > eval, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/coolpad-f129/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/mobell-m339/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/itel-it5025/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/coolpad-f126/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/coolpad-f116/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/masstel-izi-120/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/mobell-m229-2019/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/coolpad-f110/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/mobell-m228/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006181150.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/dtdd/itel-value-100/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+1592642202805	Marionette	INFO	Stopped listening on port 60562
+1592642261361	Marionette	INFO	Stopped listening on port 56591
+1592642264424	Marionette	INFO	Stopped listening on port 56943
+1592642266808	Marionette	INFO	Stopped listening on port 55302
+1592642280122	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0b/kkhtm0gd3tx385pw7d_1_6ch0000gp/T/rust_mozprofileAjgbD6"
+1592642280711	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592642281080	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592642281081	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592642281081	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592642281081	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1592642282934	Marionette	INFO	Listening on port 49323
+1592642282995	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006180450.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006180450.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/may-tinh-bang/samsung-galaxy-tab-a8-t295-2019/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/V4/detail.min.v202006181100.js line 14 > eval, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006180450.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006180450.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006180450.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006180450.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006180450.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/may-tinh-bang/ipad-air-105-inch-wifi-2019/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/V4/detail.min.v202006181100.js line 14 > eval, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006180450.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/may-tinh-bang/ipad-mini-79-inch-wifi-2019/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006180450.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006180450.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006180450.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/may-tinh-bang/lenovo-tab-e10-tb-x104l-den/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006180450.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/V4/detail.min.v202006181100.js line 14 > eval, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006180450.js, line 2: TypeError: t is undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8, line 757: uncaught exception: [object Object]
+JavaScript error: https://www.thegioididong.com/may-tinh-bang/huawei-mediapad-t3-80/danh-gia line 757 > scriptElement, line 3: ReferenceError: product is not defined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006180450.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006180450.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006180450.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006180450.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn.tgdd.vn/v2015/Scripts/desktop/ratingpage.min.v202006180450.js, line 2: TypeError: t is undefined
+1592642373130	Marionette	INFO	Stopped listening on port 49323
+1592642409929	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0b/kkhtm0gd3tx385pw7d_1_6ch0000gp/T/rust_mozprofileJfBZgp"
+1592642410340	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592642410695	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592642410695	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592642410695	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592642410695	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1592642412415	Marionette	INFO	Listening on port 49964
+1592642412484	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592725157037	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0b/kkhtm0gd3tx385pw7d_1_6ch0000gp/T/rust_mozprofilek3JfIX"
+1592725157539	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592725157939	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592725157939	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592725157939	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592725157940	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1592725160653	Marionette	INFO	Listening on port 53768
+1592725160727	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592725160761	Marionette	INFO	Stopped listening on port 53768
+1592725191483	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0b/kkhtm0gd3tx385pw7d_1_6ch0000gp/T/rust_mozprofileOqy8qW"
+1592725192095	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592725192507	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592725192507	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592725192507	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592725192507	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1592725194531	Marionette	INFO	Listening on port 53824
+1592725194562	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/NetworkGeolocationProvider.jsm, line 555: TypeError: xhr.response.location is undefined
+1592725246283	Marionette	INFO	Stopped listening on port 53824
+1592725266256	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0b/kkhtm0gd3tx385pw7d_1_6ch0000gp/T/rust_mozprofileIgZFY5"
+1592725266702	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592725267075	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592725267075	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592725267075	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592725267075	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1592725268915	Marionette	INFO	Listening on port 53898
+1592725268932	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592725271684	Marionette	INFO	Stopped listening on port 53898
+1592725303787	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0b/kkhtm0gd3tx385pw7d_1_6ch0000gp/T/rust_mozprofile7gaG1m"
+1592725304252	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592725304626	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592725304626	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592725304626	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592725304626	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1592725306360	Marionette	INFO	Listening on port 53961
+1592725306459	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592725307835	Marionette	INFO	Stopped listening on port 53961
+1592725721261	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0b/kkhtm0gd3tx385pw7d_1_6ch0000gp/T/rust_mozprofileOyXoNA"
+1592725721970	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592725722355	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592725722355	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592725722355	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592725722355	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1592725724171	Marionette	INFO	Listening on port 55193
+1592725724246	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592725729103	Marionette	INFO	Stopped listening on port 55193
+1592726168920	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0b/kkhtm0gd3tx385pw7d_1_6ch0000gp/T/rust_mozprofilevZn0zs"
+1592726169379	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592726169863	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592726169863	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592726169863	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592726169863	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1592726172490	Marionette	INFO	Listening on port 55375
+1592726172522	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592726172554	Marionette	INFO	Stopped listening on port 55375
+1592726175298	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0b/kkhtm0gd3tx385pw7d_1_6ch0000gp/T/rust_mozprofileyM9jkt"
+1592726175861	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592726176311	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592726176312	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592726176312	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592726176312	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1592726178347	Marionette	INFO	Listening on port 55430
+1592726178363	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592726186018	Marionette	INFO	Stopped listening on port 55430
+Exiting due to channel error.
+1592726188691	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0b/kkhtm0gd3tx385pw7d_1_6ch0000gp/T/rust_mozprofile0oc1ya"
+1592726189130	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592726189494	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592726189494	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592726189494	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592726189494	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1592726191370	Marionette	INFO	Listening on port 55499
+1592726191471	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592726191512	Marionette	INFO	Stopped listening on port 55499
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1592726193328	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0b/kkhtm0gd3tx385pw7d_1_6ch0000gp/T/rust_mozprofileEgAMjz"
+1592726193716	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592726194103	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592726194104	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592726194104	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592726194104	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1592726195938	Marionette	INFO	Listening on port 55551
+1592726196004	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592726199044	Marionette	INFO	Stopped listening on port 55551
+1592726226609	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0b/kkhtm0gd3tx385pw7d_1_6ch0000gp/T/rust_mozprofile6mtPHA"
+1592726227028	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592726227410	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592726227410	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592726227410	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592726227410	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1592726229519	Marionette	INFO	Listening on port 55615
+1592726229582	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592726231109	Marionette	INFO	Stopped listening on port 55615
+1592726234806	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0b/kkhtm0gd3tx385pw7d_1_6ch0000gp/T/rust_mozprofileWpR5Hg"
+1592726235243	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592726235654	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592726235654	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592726235654	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592726235654	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1592726237374	Marionette	INFO	Listening on port 55678
+1592726237382	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592726237416	Marionette	INFO	Stopped listening on port 55678
+1592745303560	Marionette	INFO	Stopped listening on port 49964

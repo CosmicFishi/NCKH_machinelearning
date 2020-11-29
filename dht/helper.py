@@ -5,7 +5,7 @@ from . import trans
 from translate import Translator
 from selenium import webdriver
 from json.decoder import JSONDecodeError
-from gensim.models import Word2Vec
+from gensim.models import Word2Vec, Phrases
 import pandas as pd
 import os
 import re
@@ -65,6 +65,11 @@ class Helper:
                 writer.writerow(row)
 
     @staticmethod
+    def write_text_file(path_file_name, content):
+        with open(path_file_name, "w") as txt_file:
+            txt_file.write(content)
+
+    @staticmethod
     def read_json_file(file_path):
         text = Helper.read_text_file("%s/%s" % (ROOT, file_path))
 
@@ -121,13 +126,33 @@ class Helper:
         return words
 
     @staticmethod
-    def w2v_model(folder_path=AUGMENTATION_CACHE_PATH+"congnghe"):
-        sentences = []
-        for file in os.listdir(folder_path):
-            text = Helper.read_text_file2("%s/%s" % (folder_path, file))
-            sentences = sentences + [sentence.split(" ") for sentence in Helper.tokenize_sentence(text)]
+    def w2v_model(folder_path="/Users/duonghuuthanh/PycharmProjects/machinelearingapp/dataset/reviews"):
+        def read_file(path):
+            sentences = []
+            for file in os.listdir(path):
+                try:
+                    d = "%s/%s" % (path, file)
+                    if os.path.isdir(d):
+                        return sentences + read_file(d)
+                    else:
+                        text = Helper.read_text_file2("%s/%s" % (path, file))
+                        sentences = sentences + [sentence.split(" ") for sentence in Helper.tokenize_sentence(text)]
+                except:
+                    pass
 
-        return Word2Vec(sentences, min_count=5, window=2) # sg=0 CBOW, 1 skip-gram
+            return sentences
+
+        if os.path.exists("/Users/duonghuuthanh/PycharmProjects/machinelearingapp/dataset/w2v_train_model.sav"):
+            model = Helper.load_cache_file("/Users/duonghuuthanh/PycharmProjects/machinelearingapp/dataset/w2v_train_model.sav")
+        else:
+            sents = read_file(folder_path)
+            print(len(sents))
+            bigram = Phrases(sentences=sents)
+            model = Word2Vec(bigram[sents], min_count=5, window=1) # sg=0 CBOW, 1 skip-gram
+
+            Helper.cache_file(path="/Users/duonghuuthanh/PycharmProjects/machinelearingapp/dataset/w2v_train_model.sav",
+                              data=model)
+        return model
 
     @staticmethod
     def change_active_to_passive_voice(en_sentence):
@@ -413,6 +438,7 @@ class Helper:
 
 
 if __name__ == "__main__":
-    print(Helper.translate_selenium("Tôi rất thích Tp.HCM. Mọi người nên đến tham quan/ Tôi rất hài lòng sản phẩm đó 💩"))
+    pass
+    # print(Helper.translate_selenium("Tôi rất thích Tp.HCM. Mọi người nên đến tham quan/ Tôi rất hài lòng sản phẩm đó 💩"))
     # Helper.convert_to_fasttext_data("/Users/duonghuuthanh/Desktop/My-projects/SentimentAnalysis/2018/datasettokenizednew2",
     #                                 "/Users/duonghuuthanh/PycharmProjects/machinelearingapp/dataset/vi-wordnet/fasttextdata.txt")

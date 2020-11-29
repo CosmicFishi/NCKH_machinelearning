@@ -2,6 +2,9 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.multiclass import OneVsOneClassifier, OneVsRestClassifier
 from sklearn.svm import SVC
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.naive_bayes import MultinomialNB
+
 from sklearn import metrics
 import time
 

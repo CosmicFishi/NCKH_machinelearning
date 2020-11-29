@@ -1,5 +1,8 @@
 import os
 
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.naive_bayes import MultinomialNB
+
 ROOT = os.path.abspath("..")
 
 def read_text_file(file_path, encoding="utf-8", is_readlines=False):
@@ -19,11 +22,33 @@ def read_text_file(file_path, encoding="utf-8", is_readlines=False):
 
     return text
 
-def get_vector():
-    pass
+def get_vector(data, test_data= None):
 
-def huan_luyen():
-    pass
+    vector = TfidfVectorizer(stop_words=['này'])
 
-def du_doan():
-    pass
+    train_vectors = vector.fit_transform(data)
+    test_vector = None
+
+    if(test_data):
+        test_vector = vector.transform(test_data)
+
+    # lấy tên từng cột trong vector
+    print("CAC TRUC: " + str(vector.get_feature_names()))
+
+    return train_vectors,test_vector
+
+def huan_luyen_native_bayes(train_vector, test_vector):
+    classifier = MultinomialNB(alpha=0.01)
+    classifier.fit(train_vector, test_vector)
+
+    return classifier
+
+
+def du_doan(classifier, test_vector):
+    return classifier.predict(test_vector)
+
+if __name__ == "__main__":
+    from dht.helper import Helper
+    m = Helper.w2v_model()
+    import pdb
+    pdb.set_trace()

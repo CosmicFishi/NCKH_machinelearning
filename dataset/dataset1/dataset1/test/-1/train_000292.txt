@@ -1,0 +1,1 @@
+" " trình_duyệt web edge của win 10 bị lỗi không xem được các clip trên các báo mạng mặc_dù đã vào settings , view advanded setting , bật adobe flashplayer nhưng vẫn không xem được . phải chuyển sang chế_độ duyệt open with internet explorer hoặc xem bằng chrome . " "

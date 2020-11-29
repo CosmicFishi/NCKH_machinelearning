@@ -1,0 +1,1 @@
+" mã_seri vỏ hộp ko trùng mã seri thân_son nghĩa_là vỏ hộp này là của thỏi khác . check vỏ hộp thì là hàng auth nhưng mã vỏ hộp khác mã in dưới đáy cây_son mà đúng chúng phải khớp vs nhau cho_nên ko biết đc cây_son là hàng j nữa . "

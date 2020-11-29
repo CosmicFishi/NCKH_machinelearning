@@ -192,23 +192,21 @@ if __name__ == "__main__":
     rows = []
     for i in range(1, 6):
         print("=== DATASET %d ===" % i)
-        train_path = "/Users/duonghuuthanh/iCloud Drive (Archive)/Desktop/My-projects/SentimentAnalysis/2020/augmentation/dataset%d/train" % i
-        test_path = "/Users/duonghuuthanh/iCloud Drive (Archive)/Desktop/My-projects/SentimentAnalysis/2020/augmentation/dataset%d/test" % i
-        result1 = validate1(train_path=train_path, test_path=test_path)
-        result2 = validate1(train_path=train_path, test_path=test_path, flag=True)
-        result3 = validate2(train_path=train_path, test_path=test_path, flag=False, back_translation=True)
+        train_path = "/home/kan_haungo/Desktop/machinelearningapp/dataset/dataset1/dataset1/train" % i
+        test_path = "/home/kan_haungo/Desktop/machinelearningapp/dataset/dataset1/dataset1/test" % i
+        # result1 = validate1(train_path=train_path, test_path=test_path)
+        # result2 = validate1(train_path=train_path, test_path=test_path, flag=True)
+        # result3 = validate2(train_path=train_path, test_path=test_path, flag=False, back_translation=True)
         # result4 = validate2(train_path=train_path, test_path=test_path, flag=False, w2v=True)
         # result5 = validate2(train_path=train_path, test_path=test_path, flag=False, syntax_tree=True)
-        # result6 = validate2(train_path=train_path, test_path=test_path, flag=False, eda=True)
-        result7 = validate2(train_path=train_path, test_path=test_path, flag=True, back_translation=True)
+        result6 = validate2(train_path=train_path, test_path=test_path, flag=False, eda=True)
+        # result7 = validate2(train_path=train_path, test_path=test_path, flag=True, back_translation=True)
         # result8 = validate2(train_path=train_path, test_path=test_path, flag=True, w2v=True)
         # result9 = validate2(train_path=train_path, test_path=test_path, flag=True, syntax_tree=True)
         # result10 = validate2(train_path=train_path, test_path=test_path, flag=True, eda=True)
         classifiers = ["Logistic Regression", "SVM RBF", "OVO", "OVR"]
-        for c, r1, r2, r3, r7 \
-                in zip(classifiers, result1, result2, result3,
-                       result7):
-            rows.append([c, r1, r2, r3, r7])
+        for c, r6 in zip(classifiers, result6):
+            rows.append([c, r6])
         rows.append(["classifiers", "Original", "Preprocessing",
                      "Back", "w2v", "Syntax", "eda", "pre Back", "pre w2v", "pre Syntax", "pre eda"])
 

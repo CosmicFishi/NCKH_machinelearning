@@ -1,0 +1,1 @@
+" hàng lỗi gãy bị trả về giờ dám bán gửi cho khách khác còn nguyên cái tem trong hộp . lần đầu mua ok lần thứ 2 cũng là lần cuối_cùng . bye "

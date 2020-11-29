@@ -1,0 +1,1 @@
+" cái bluetooth đem về kết_nối thì được nhưng không nghe được âm_thanh "

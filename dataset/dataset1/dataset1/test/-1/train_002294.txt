@@ -1,0 +1,1 @@
+" mua hàng 3 hop nhưng shop giao 1 hộp . gọi shop đồng_ý chuyển_khoản trả lại tiền đã gửi số tài_khoản cho shop . vấn_đề trả lại tiền hay ko thì fai chờ bên shop mới biết . đợi 1 tuần shop vẫn ko trả lại tiền "

@@ -1,0 +1,1 @@
+" hết hàng thì thông_báo tới khi có hang ko thông_báo "

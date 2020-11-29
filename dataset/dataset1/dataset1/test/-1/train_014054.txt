@@ -1,0 +1,1 @@
+" giao hàng thiếu số_lượng . không nhận được phản_hồi từ shop . đã gọi điện_thoại nhưng k được giải_quyết "

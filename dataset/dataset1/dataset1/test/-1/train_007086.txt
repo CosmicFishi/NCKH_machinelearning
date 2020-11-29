@@ -1,0 +1,1 @@
+" " sáng nay vừa nâng_cấp ip6s lên ios 9.3.2 . kiểm_tra kết_nối bluetooth với tai_nghe bluetooth vẫn không nhận được như bản ios 9.3.1 . thất_vọng ... ! " "

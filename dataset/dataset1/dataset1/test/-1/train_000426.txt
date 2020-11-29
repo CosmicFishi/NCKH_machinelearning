@@ -1,0 +1,1 @@
+" nếu bật chế_độ full screen và lướt web đọc báo sẽ thấy khá khó_chịu vì màu_sắc ko đều . bật chế_độ 3 phím ảo ở dưới sẽ thấy đỡ ám vàng vì ko phải đọc nội_dung dưới cùng "

@@ -1,0 +1,1 @@
+" màn bị lỗi cảm_ứng phần dưới mà hình . nguyên 1 dòng luôn ! bóc seal để lắp rồi ko đổi được nên đành chấp_nhận bỏ màn . "

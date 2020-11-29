@@ -1,0 +1,1 @@
+" cắm vào chỉ sáng mỗi cái đèn led k_di_chuột được do ở xa nên nhận không đổi trả "

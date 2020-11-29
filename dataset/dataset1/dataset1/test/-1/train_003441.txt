@@ -1,0 +1,1 @@
+" trong hình chụp là một đầu thẳng một đầu chữ l nhưng khi giao hàng là loại cable 2 đầu đều thẳng . tiki phải kiểm_tra hàng đúng với hình_mẫu trước khi giao để bảo_đảm uy_tín . "

@@ -1,0 +1,1 @@
+" đặt 10 bộ size 4 giao 5 bộ size 3 5 bộ size 4 . size 3 k vừa bt làm_sao đổi thì lu_bu hazz "

@@ -1,0 +1,1 @@
+" shop giao hàng không đúng đặt_hàng . thiếu sách nhưng vẫn giữ nguyên giá . "

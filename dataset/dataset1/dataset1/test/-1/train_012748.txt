@@ -1,0 +1,1 @@
+" đặtt 2 combo là 6 cái mà shop ko giao nhiều mẫu . chỉ giao 3 mẫu cho 6 cái . trong khi phân_loại hàng là 3/4/5 là có 9mẫu . néu v_đừng để chung 3/4/5 như_vậy . "

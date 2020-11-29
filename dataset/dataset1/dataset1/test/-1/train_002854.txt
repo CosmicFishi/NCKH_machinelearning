@@ -1,0 +1,1 @@
+" đặt màu 103 và được shop báo hết màu 103 vậy chuyển sang màu 101 shop lại giao màu 104 cực_kì không ưng "

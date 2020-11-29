@@ -1,0 +1,1 @@
+" điều_kiện áp_dụng ko giống mô tảmình sử_dụng vào ngày thứ 3 thì cửa_hàng xác_nhận là ko áp_dụng cùng với các khuyến_mãi khác . mong shop kiểm_tra "

@@ -1,0 +1,1 @@
+" lúc khởi_động thì ko lên phải tháo lắp lại các kiểu mới lên ko biết tại nguồn hay tại các linh_kiện khác "

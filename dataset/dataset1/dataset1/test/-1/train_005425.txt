@@ -1,0 +1,1 @@
+" gửi thiếu jac cắm mod vào vga "

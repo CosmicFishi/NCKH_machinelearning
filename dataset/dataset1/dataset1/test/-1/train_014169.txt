@@ -1,0 +1,1 @@
+" bị lỗi lúc có sóng lúc không . phải reset lại liên_tục "

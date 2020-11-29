@@ -1,0 +1,1 @@
+" đóng_gói sản_phẩm bị mở trước khi nhận . giờ chạy thì sai . nói_chung chưa được hài_lòng "

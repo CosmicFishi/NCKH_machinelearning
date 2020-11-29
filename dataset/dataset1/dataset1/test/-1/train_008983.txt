@@ -1,0 +1,1 @@
+" " 32 bít ram 2gb đã không chạy nổi rồi , giờ lên 64 chắc chịu " "

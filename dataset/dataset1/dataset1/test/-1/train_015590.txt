@@ -1,0 +1,1 @@
+" shop không kiểm_tra sản_phẩm trước khi giao hàng lỗi . mong sau_này sẽ khắc_phục với những khách_hàng khác . "

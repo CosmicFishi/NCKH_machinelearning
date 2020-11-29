@@ -1,0 +1,1 @@
+" tem chứa imei không có dãy số bảo_hành để kiểm_tra hàng chính hãng hay không ? định trả lại hàng rồi mà nhác quá nên để xài luôn . "

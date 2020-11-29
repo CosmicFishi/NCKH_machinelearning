@@ -1,0 +1,1 @@
+" thời_gian giao hàng rất nhanh . đặt hôm trước hôm sau nhận đc luôn . mẫu_mã hình_thức và đèn led ok . có một lỗi nhỏ là có 3 phím bị đơ led . khi bật nháy thì 3 lút đó k nháy mà chỉ đứng yên , khi tắt led đi thì 3 lút đó lại vẫn sáng . đèn 3 lút đó cũng mờ , ngoài ra toàn_bộ ok . chúc shop làm_ăn phát_đạt . "

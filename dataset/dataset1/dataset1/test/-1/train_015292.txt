@@ -1,0 +1,1 @@
+" giao hàng muộn 3 ngày mà ko được thông_báo ( lại còn phải 50 ký_tự nữa định cho 4 sao nhưng phải viết thêm nên cho 2 sao ) "

@@ -1,0 +1,1 @@
+" gửi không đúng màuđặt đồng_hồ nữ thì gửi nam "

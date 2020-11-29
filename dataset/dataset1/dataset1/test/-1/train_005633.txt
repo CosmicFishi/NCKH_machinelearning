@@ -1,0 +1,1 @@
+" không tự ngắt khi đóng ngõ ra không dùng để tăng áp cho máy_giặt được . dùng để rửa xe chắc là ok vì áp_lực đầu_ra khá lớn . "

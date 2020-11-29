@@ -1,0 +1,1 @@
+" mình mua 3 sản_phẩm của shop nhưng shop chỉ giao 2 sản_phẩm thay vào đó kẹp vào sản_phẩm ship cho mình tiền trả lại món mà shop không giao nhưng không hề thông_báo cho mình rằng có một sản_phẩm không có hàng . mình inbox cho shop thì nhận được câu trả_lời rằng chuyện đó bình_thường thôi . "

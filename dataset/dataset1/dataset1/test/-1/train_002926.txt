@@ -1,0 +1,1 @@
+" hộp chỉ có đúng 4 nhân_vật không như mô_tả ( mặc_dù vẫn nguyên seal ) . yêu_cầu đổi hàng rất lâu không được cs hỗ_trợ . tôi quyết_định trả lại hàng . hiện_giờ vẫn chưa thấy nhân_viên tiki đến lấy lại hàng "

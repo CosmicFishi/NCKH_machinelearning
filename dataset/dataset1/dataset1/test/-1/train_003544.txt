@@ -1,0 +1,1 @@
+" đóng_gói sản_phẩm kémmình đặt cả size m và s mà shop toàn giao size s. đóng_gói cùng size s mà đôi thì bé đôi thì to "

@@ -1,0 +1,1 @@
+" mình mua 1 chuột màu đen nút click bên phải phát ra âm_thanh vừa_phải nhưng nút bên trái ồn không thua gì chuột bình_thường hết . "

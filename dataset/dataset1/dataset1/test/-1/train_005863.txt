@@ -1,0 +1,1 @@
+" sản_phẩm mình nhận dung_lượng có 8gb trong khi mô_tả là 32gb "

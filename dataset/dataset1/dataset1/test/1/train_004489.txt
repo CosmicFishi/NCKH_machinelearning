@@ -1,0 +1,1 @@
+" sạc hơi yếu vì chỉ có đầu sạc input 5v - 1a . nếu ai dùng máy pin từ 3000mah sẽ sạc hơi lâu "

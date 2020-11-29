@@ -1,0 +1,1 @@
+" đặt 2 ống son để đánh thay_đổi khi cần tôi có ghi_chú là 2 màu 8 và 10 chat để nhắc chọn màu shop ok rồi lại gửi 2 ống cùng màu . nếu 2 ống cùng màu thì cần gì mua 2 ống ? khi ấn nút trả hàng thì shop lại bảo tôi đặt_hàng như_vậy ? thử_hỏi shop bán_vậy có được không ? shoppe nên xem_lại "

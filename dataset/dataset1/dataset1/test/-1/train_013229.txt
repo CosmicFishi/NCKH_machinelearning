@@ -1,0 +1,1 @@
+" không hiểu sao sản_phẩm của mình cứ vài ngày lại phải tắt - bật lại 1 lần . nếu không tốc_độ sẽ cực_kỳ chậm giảm ~ 500kb / s ( bình_thường ~ 20mb / s ) "

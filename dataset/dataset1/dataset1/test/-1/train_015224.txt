@@ -1,0 +1,1 @@
+" làm_ăn ẩu_tả ko kiểm hàng trước khi giao hàng giao pin lỗi khách đổi thì bắt khách tự chịu phí "

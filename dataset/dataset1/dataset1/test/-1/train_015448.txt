@@ -1,0 +1,1 @@
+" đặt_hàng là ts - 123 lại giao hd - 789s nếu ko có hàng thì báo lại cho người mua hết tin_tưởng đề_nghị sendo xem_lại shop này "

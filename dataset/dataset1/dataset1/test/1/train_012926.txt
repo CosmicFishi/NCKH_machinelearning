@@ -1,0 +1,1 @@
+" shop ơi sao mới nhận hàng hai ngày mà đồng_hồ bị đứng kim và chạy chậm hơn giờ đúng . chỉnh lại rồi vẫn chạy một thời_gian là chậm hơn giờ chuẩn . "

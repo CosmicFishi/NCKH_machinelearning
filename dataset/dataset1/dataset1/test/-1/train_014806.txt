@@ -1,0 +1,1 @@
+" bộ phím số không xài được loạn phím hay bị mất kết_nối với máy_tính "

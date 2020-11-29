@@ -1,0 +1,1 @@
+" nút home bị lỗi không sử_dụng được "

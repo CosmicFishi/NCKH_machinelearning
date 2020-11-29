@@ -1,0 +1,1 @@
+" xả hàng tồn_kho các cửa_hàng đều k còn mẫu này . size không giống thị_trường nhưng k hề cảnh_báo khách_hàng . k cho đổi size sau khi nhận hàng . mang chật hay rộng thì kệ khách_hàng . "

@@ -1,0 +1,1 @@
+" thông_tin chi_tiết trên web là sản_xuất tại hàn_quốc nhưng nhãn thực_tế trên sản_phẩm nhận được là sản_xuất tại trung_quốc ! "

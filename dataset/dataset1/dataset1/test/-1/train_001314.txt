@@ -1,0 +1,1 @@
+" nạp điện cho sạc dự_phòng chỉ lên được 75 % . "

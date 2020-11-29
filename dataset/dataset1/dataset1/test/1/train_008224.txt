@@ -1,0 +1,1 @@
+" check mã_vạch bằng phần_mềm icheck báo hàng chuẩn "

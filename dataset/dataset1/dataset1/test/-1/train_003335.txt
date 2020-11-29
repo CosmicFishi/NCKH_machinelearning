@@ -1,0 +1,1 @@
+" giao nhầm size . bán_hàng k tận_tâm . mua 2 lần lần nào cũg giao nhầm . lần đầu ord 2b tã giao 1b mà hoá_đơn vẫn tính 2b "

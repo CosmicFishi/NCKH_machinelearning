@@ -1,0 +1,1 @@
+" . simm 4g mà không có 1 mb nào để truy_cập internet "

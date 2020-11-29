@@ -1,0 +1,1 @@
+" không đúng loại hàng khi đặt ( cộng miếng ) . shop có báo đã hết hàng và đề_nghị đổi sang loại không cộng miếng . nếu hết hàng đề_nghị shop đưa sản phầm vào phần hàng đã bán hết . "

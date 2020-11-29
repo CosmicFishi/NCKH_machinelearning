@@ -1,0 +1,1 @@
+" thứ nhất : mô_tả sản_phẩm là dành cho trẻ 06 tháng nhưng khi nhận được hàng là sản_phẩm dành cho trẻ 8 tháng trở lên . thứ_hai : thái_độ nhân_viên giao hàng không tốt tỏ thái_độ bề trên . tôi mua hàng chứ tôi không xin và cần được ban_phát . "

@@ -1,0 +1,1 @@
+" giao hàng thiếu đặt 3 món giao 2 món nhưng vẫn tính tiền 3 món . ib ko rep . sản_phẩm yếu shop phục_vụ rất kém . thời_gian giao hàng rất chậm rất không đáng tiền "

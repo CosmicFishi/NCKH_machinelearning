@@ -1,0 +1,1 @@
+" sổ mỏng kích_thước có_thể nhỏ hơn và tăng số_lượng trang lên để thuận_tiện bỏ_túi "

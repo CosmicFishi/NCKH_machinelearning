@@ -1,0 +1,1 @@
+" sạc lâu vô và chỉ sạc được 1 lần là hết pin "

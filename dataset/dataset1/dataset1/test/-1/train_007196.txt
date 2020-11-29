@@ -1,0 +1,1 @@
+" tổng dung_lượng pin ko đc 8000mahsau khi bán xong thì ko thèm rep phản_hồi "

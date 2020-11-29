@@ -1,0 +1,1 @@
+" giao hàng quá chậm hàng chưa có sẵn trong kho nhưng tiki rao bán vào giao hàng chậm mất 2 tuần "

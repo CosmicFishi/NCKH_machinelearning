@@ -1,0 +1,1 @@
+" sản_phẩm bị lỗi không để đo được màn_hình chỉ sáng dèn nhưng không đo được nhiệu độ trán và nhiệt_độ đồ_vật "

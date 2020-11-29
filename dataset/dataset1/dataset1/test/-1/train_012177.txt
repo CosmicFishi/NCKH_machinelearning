@@ -1,0 +1,1 @@
+" phần kéo ra vào của usb có vẻ không được đúng khuôn_mẫu hơi bị vênh . khi đóng và mở usb thì nó không được trơn chu . "

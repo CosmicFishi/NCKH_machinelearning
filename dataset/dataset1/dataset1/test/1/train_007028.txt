@@ -1,0 +1,1 @@
+" cấu_hình mạnh nhưng sử_dụng hay bị out chương_trình "

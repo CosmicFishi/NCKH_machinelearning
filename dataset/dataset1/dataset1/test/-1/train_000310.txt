@@ -1,0 +1,1 @@
+" sản_phẩm phải bảo_quản ở nhiệt_độ 0-5 độ c mà gói hàng shop gởi hôm_qua ghn chiều hôm_nay mới giao hàng trong điều_kiện bình_thường . mình có hỏi giao hàng nhanh thì ngta nói k nhận giao hàng bảo_quản lạnh nên mình nghĩ shop nên tự giao hàng sẽ tốt hơn cho khách_hàng "

@@ -1,0 +1,1 @@
+" trong lúc lắp_ráp . mình siết nhẹ thì các khớp nối không giữ được ( thanh treo sẽ bị tụt xuống ) . còn vặn chạy là bị vỡ ra hỏng luôn . nói_chung là thật_sự thất_vọng . tiki cần kiểm_tra nguồn hàng kĩ hơn . "

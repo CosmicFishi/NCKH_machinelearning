@@ -1,0 +1,1 @@
+" " mình không hiểu sao phím home của máy chỉ có chức_năng chuyển_đổi themes , ngoài_ra không có chức_năng gì khác ! ! ! ! ? khi đang sử_dụng ứng_dụng muốn thoát nhanh ra ngoài màn_hình home screen không được , cứ phải bấm back liên_tục , lúc máy treo do ứng_dụng nào đó bị force_close không biết bấm vào đâu để thoát nữa . haizz ! không biết khi nào mới có_thể lên ics đây . " "

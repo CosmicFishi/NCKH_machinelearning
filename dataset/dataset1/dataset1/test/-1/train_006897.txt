@@ -1,0 +1,1 @@
+" giao_san phâm cho khách_hàng mà thiêu quà tang kh da thông_báo mà 2 tuan roi cung khong nhân duoc 1 su phan_hôi nào ca tu_dong_huy don hang cua kh mà khong thông_báo "
